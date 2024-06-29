@@ -1,0 +1,61 @@
+<!doctype html>
+<html class="no-js" lang="en-US">
+<head>
+    <!-- META TAGS -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    
+    <!-- FONTS -->
+    <link href="http://fonts.googleapis.com/css?family=Poppins:300,400,500" rel="stylesheet" type="text/css">
+       
+    <!-- CSS -->
+    <link rel="stylesheet" id="default-style-css"  href="assets/css/style.css" type="text/css" media="all" />
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="assets/uploads/favicon.png"/>
+    
+    <!-- DOCUMENT TITLE -->
+    <title>Dotted Loader</title>
+
+</head>
+
+<body>
+
+<!-- PAGE LOADER -->
+<div id="page-loader" class="show-logo">
+    <span class="loader-icon bullets-jump"><span></span><span></span><span></span></span>
+</div>
+<!-- PAGE LOADER -->
+
+<!-- PAGE CONTENT -->
+<div id="page-content">
+  
+    <div id="hero-and-body">
+        
+        <div class="text-center">
+          <h1 class="text-center">
+              This Is A Classic Dotted Loader Using HTML, Css, Javascript & Jquery
+          </h1>
+        </div>
+
+    </div>
+           
+</div>
+<!-- PAGE CONTENT -->
+
+<!-- SCRIPTS -->
+<script src="assets/js/jquery-1.12.4.min.js"></script>
+<script>
+(function($) {
+    'use strict';
+    
+    // Loader Animation
+    $(window).on('load', function() {
+        $('#page-loader').fadeOut(5000); // Fade out the loader div
+    });
+
+})(jQuery);
+</script>
+<!-- SCRIPTS -->
+
+</body>
+</html>
